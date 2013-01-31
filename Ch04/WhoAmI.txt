@@ -1,0 +1,14 @@
+instance variables, getter, setter, method
+return
+return, argument
+encapsulation
+pass by value
+instance variables
+argument
+getter
+public
+method
+setter
+getter, setter, public, private
+return
+
