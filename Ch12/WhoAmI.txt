@@ -1,0 +1,15 @@
+JFrame
+listener interface
+actionPerformed()
+setSize()
+paintComponent()
+event
+swing components
+event object
+event source
+addActionListener()
+paintComponent()
+inner class
+Graphics2d
+repaint()
+javax.swing
