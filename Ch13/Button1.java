@@ -9,9 +9,18 @@ public class Button1 {
 	
 	public void go() {
 		JFrame frame = new JFrame();
-		JButton button = new JButton("click me");
-		frame.getContentPane().add(BorderLayout.EAST, button);
-		frame.setSize(200, 200);
+		JButton north = new JButton("North");
+		JButton south = new JButton("South");
+		JButton west = new JButton("West");
+		JButton east = new JButton("East");
+		JButton center = new JButton("Center");
+		
+		frame.getContentPane().add(BorderLayout.NORTH, north);
+		frame.getContentPane().add(BorderLayout.SOUTH, south);
+		frame.getContentPane().add(BorderLayout.EAST, east);
+		frame.getContentPane().add(BorderLayout.WEST, west);
+		frame.getContentPane().add(BorderLayout.CENTER, center);
+		frame.setSize(300, 300);
 		frame.setVisible(true);
 	}
 }
