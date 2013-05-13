@@ -5,6 +5,7 @@ public class MiniMusicPlayer1 {
 		try {
 			Sequencer sequencer = MidiSystem.getSequencer();
 			sequencer.open();
+			//This does nothing. Testing Git Branching and Merging.
 			Sequence seq = new Sequence(Sequence.PPQ, 4);
 			Track track = seq.createTrack();
 			for (int i=5; i<61; i+=4) {
