@@ -1,16 +1,12 @@
 import java.util.*;
 import java.io.*;
 
-public class Jukebox6 {
+public class Jukebox8 {
     ArrayList<Song> songList = new ArrayList<Song>();
+	int val;
+	
     public static void main(String[] args) {
-        new Jukebox6().go();
-    }
-
-    class ArtistCompare implements Comparator<Song> {
-		public int compare(Song one, Song two) {
-			return one.getArtist().compareTo(two.getArtist());
-		}
+        new Jukebox8().go();
     }
 
     public void go() {
@@ -18,7 +14,7 @@ public class Jukebox6 {
         System.out.println(songList);
         Collections.sort(songList);
         System.out.println(songList);
-		HashSet<Song> songSet = new HashSet<Song>();
+		TreeSet<Song> songSet = new TreeSet<Song>();
 		songSet.addAll(songList);
 		System.out.println(songSet);
     }
